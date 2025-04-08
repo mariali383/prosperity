@@ -26,4 +26,13 @@ Models
 2. 
 
 TASKS
-1. geoffrey: backtester
+1. Test the backtester: https://github.com/jmerle/imc-prosperity-3-backtester/tree/master (Daniel)
+2. Researching and creating features (Geoffrey)
+3. Study data provided (EDA)
+4. Create template to create and test features quickly (Geoffrey)
+5. Data cleaning (Geoffrey)
+6. Write up MVP for strategy - acceptable price $10,000 (Maria)
+ 
+Data
+1. two: training, one day for testing
+
