@@ -16,7 +16,7 @@ class Trader:
         for product in state.order_depths.keys():
 
             # Check if the current product is the 'PEARLS' product, only then run the order logic
-            if product == 'PEARLS':
+            if product == 'RAINFOREST_RESIN':
 
                 # Retrieve the Order Depth containing all the market BUY and SELL orders for PEARLS
                 order_depth: OrderDepth = state.order_depths[product]
@@ -26,7 +26,7 @@ class Trader:
 
                 # Define a fair value for the PEARLS.
                 # Note that this value of 1 is just a dummy value, you should likely change it!
-                acceptable_price = 1
+                acceptable_price = 10000
 
                 # If statement checks if there are any SELL orders in the PEARLS market
                 if len(order_depth.sell_orders) > 0:
