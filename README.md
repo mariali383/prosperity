@@ -36,3 +36,5 @@ TASKS
 Data
 1. two: training, one day for testing
 
+Sources:
+https://github.com/ericcccsliu/imc-prosperity-2 (2nd place prosperity 2)
